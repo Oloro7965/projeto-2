@@ -1,0 +1,8 @@
+def dataatual():
+    d=int(input('digite a data '))
+    m=int(input('digite o mês '))
+    a=int(input('digite o ano '))
+    ano=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+    mext = ano[m-1]
+    print(f'{d} de {mext} de {a}')
+dataatual()
